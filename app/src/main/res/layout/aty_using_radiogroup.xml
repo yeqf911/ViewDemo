@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="我是帅哥么?"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp">
+
+        <RadioButton
+            android:id="@+id/radioRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="是"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radioWrong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="不是"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radioNature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="傻逼"
+            android:textSize="20sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Submit"
+        android:textSize="20sp"/>
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yeqf.app.viewdemo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Light.DarkActionBar">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.AtyUsingRadioGroup" />
+        <activity android:name=".activity.AtyUsingCheckBox" />
+        <activity android:name=".activity.AtyUsingDatePicker" />
+        <activity android:name=".activity.AtyUsingTimePicker" />
+        <activity android:name=".activity.AtyUsingSpinner" />
+        <activity android:name=".activity.AtyUsingProgressBar" />
+        <activity android:name=".activity.AtyUsingSeekBar" />
+        <activity android:name=".activity.AtyUsingGridView" />
+        <activity android:name=".activity.AtyUsingProgressDialog" />
+        <activity android:name=".activity.AtyUsingNotification" />
+        <activity android:name=".activity.AtyUsingScrollView" />
+        <activity android:name=".activity.AtyUsingRatingBar" />
+        <activity android:name=".activity.AtyUsingImageSwitcher" />
+        <activity android:name=".activity.AtyUsingGallery" />
+        <activity android:name=".activity.AtyUsingBaseAdapter" />
+        <activity android:name=".activity.StringListView" />
+        <activity android:name=".activity.ImageListView" />
+        <activity android:name=".activity.AtyUsingAutoCompleteTextView" />
+        <activity android:name=".activity.AtyUsingColorRes" />
+    </application>
+
+</manifest>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ViewDemo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="add">add</string>
+    <string name="view">视图</string>
+</resources>
